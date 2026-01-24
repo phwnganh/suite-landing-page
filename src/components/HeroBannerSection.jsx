@@ -20,8 +20,8 @@ const HeroBannerSection = () => {
         }
     ]
     return (
-        <section className={"flex flex-col md:flex-row justify-between items-center"}>
-            <div className={"relative flex items-center w-full pr-24"}>
+        <section className={"flex flex-col md:flex-row gap-20 justify-between items-center"}>
+            <div className={"relative flex items-center w-full"}>
 
                 <img src={PatternCurveLine1} alt={"pattern-curve-line-1"} className={"absolute left-1/2 -translate-x-1/2 top-10 z-30"} />
 
@@ -38,7 +38,7 @@ const HeroBannerSection = () => {
 
             </div>
 
-                <div className={"flex flex-row md:flex-col gap-16"}>
+                <div className={"flex flex-col sm:flex-row md:flex-col gap-16"}>
                         {HERO_BANNER_STATISTICS.map(item => (
                             <div className={"flex flex-col gap-1"} key={item.key}>
                                 <h1 className={"text-neutral-900 text-preset-2-bold"}>{item.title}</h1>
