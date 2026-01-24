@@ -1,9 +1,12 @@
+import HeroSection from "./components/HeroSection.jsx";
+import TestimonialSection from "./components/TestimonialSection.jsx";
 
 const MainPage = () => {
     return (
-        <div>
-
-        </div>
+        <main className={""}>
+            <HeroSection/>
+            <TestimonialSection/>
+        </main>
     );
 };
 

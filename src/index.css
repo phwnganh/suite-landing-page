@@ -9,6 +9,14 @@
     --color-neutral-900: #172339;
     --color-eupatorium-purple-500: #CB30E3;
     --color-light-gradient: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+
+    --radius-6: 6px;
+    --radius-10: 10px;
+    --radius-12: 12px;
+    --radius-15: 15px;
+    --radius-16: 16px;
+    --radius-20: 20px;
+    --radius-24: 24px;
   }
 
   .text-preset-1{
