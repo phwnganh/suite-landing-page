@@ -5,14 +5,9 @@ const MainPage = () => {
     return (
         <main className={""}>
             <HeroSection/>
-            <div className={"relative z-10 -mb-60"}>
                 <TestimonialSection/>
-
-            </div>
-            <div className={""}>
                 <FooterSection/>
 
-            </div>
 
         </main>
     );

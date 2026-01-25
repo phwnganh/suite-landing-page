@@ -4,7 +4,7 @@ import TwitterLogo from '../assets/icon-twitter.svg'
 import InstagramLogo from '../assets/icon-instagram.svg'
 const FooterSection = () => {
     return (
-        <footer className={"bg-neutral-200 py-20"}>
+        <footer className={"bg-neutral-200 pt-80 pb-20 relative -mt-60"}>
             <div className={"max-w-277.5 mx-auto flex justify-between items-center"}>
                 <img src={Logo} alt={"logo"} />
                 <p className={"text-neutral-500 text-preset-8"}>Copyright - Suite</p>
