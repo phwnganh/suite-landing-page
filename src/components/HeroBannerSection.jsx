@@ -30,7 +30,7 @@ const HeroBannerSection = () => {
                         <h1 className={"text-preset-1-mobile leading-preset-1 tracking-preset-1 sm:text-preset-1-tablet md:text-preset-1 text-neutral-900"}>A <span className={"font-bold"}>super solution</span> for your <span className={"font-bold"}>business.</span></h1>
                         <p className={"text-neutral-500 text-preset-5 leading-preset-5 tracking-preset-5"}>Our marketing and sales automations help you scale your outreach to get more leads for your company. </p>
                     </div>
-                    <CustomButton className={"text-neutral-0 border-neutral-900 bg-neutral-900 w-58"}>Request Beta Access</CustomButton>
+                    <CustomButton className={"text-neutral-0 border-neutral-900 bg-neutral-900 w-58 hover:bg-[linear-gradient(135deg,#A060FF_0%,#CB30E3_49.21%,#FFA84E_100%)] hover:border-light-gradient "}>Request Beta Access</CustomButton>
                 </div>
 
                 <img src={HeroPotraitImg} alt={"hero-portrait-img"} className={"relative z-10 ml-auto hidden sm:block"}/>
