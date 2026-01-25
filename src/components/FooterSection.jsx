@@ -9,13 +9,13 @@ const FooterSection = () => {
                 <img src={Logo} alt={"logo"} />
                 <p className={"text-neutral-500 text-preset-8 leading-preset-8 tracking-preset-8"}>Copyright - Suite</p>
                 <div className={"flex items-center gap-8"}>
-                    <div className={"flex justify-center items-center"}>
+                    <div className={"flex justify-center items-center cursor-pointer hover:opacity-50"}>
                         <img src={FacebookLogo} alt={"facebook-logo"} />
                     </div>
-                    <div className={"flex justify-center items-center"}>
+                    <div className={"flex justify-center items-center cursor-pointer hover:opacity-50"}>
                         <img src={TwitterLogo} alt={"twitter-logo"} />
                     </div>
-                    <div className={"flex justify-center items-center"}>
+                    <div className={"flex justify-center items-center cursor-pointer hover:opacity-50"}>
                         <img src={InstagramLogo} alt={"instagram-logo"} />
                     </div>
                 </div>
