@@ -1,6 +1,7 @@
 import PatternCurveLine1 from '../assets/pattern-curved-line-1.svg'
 import CustomButton from "./ui/CustomButton.jsx";
 import HeroPotraitImg from '../assets/image-hero-portrait.png'
+import HeroPotraitMobile from '../assets/image-hero-landscape.png'
 const HeroBannerSection = () => {
     const HERO_BANNER_STATISTICS = [
         {
@@ -33,7 +34,7 @@ const HeroBannerSection = () => {
                 </div>
 
                 <img src={HeroPotraitImg} alt={"hero-portrait-img"} className={"relative z-10 ml-auto hidden sm:block"}/>
-
+                <img src={HeroPotraitMobile} alt={"hero-potrait-mobile"} className={"block sm:hidden w-full"}/>
 
 
                 <div className={"flex flex-col sm:flex-row md:flex-col gap-16"}>
