@@ -9,15 +9,15 @@ const FooterSection = () => {
                 <img src={Logo} alt={"logo"} />
                 <p className={"text-neutral-500 text-preset-8 leading-preset-8 tracking-preset-8"}>Copyright - Suite</p>
                 <div className={"flex items-center gap-8"}>
-                    <div className={"flex justify-center items-center cursor-pointer hover:opacity-50"}>
-                        <img src={FacebookLogo} alt={"facebook-logo"} />
-                    </div>
-                    <div className={"flex justify-center items-center cursor-pointer hover:opacity-50"}>
-                        <img src={TwitterLogo} alt={"twitter-logo"} />
-                    </div>
-                    <div className={"flex justify-center items-center cursor-pointer hover:opacity-50"}>
-                        <img src={InstagramLogo} alt={"instagram-logo"} />
-                    </div>
+                    <button className={"w-9 h-9 flex justify-center items-center cursor-pointer rounded-2 hover:opacity-50 focus:outline-none focus:shadow-[inset_0_0_0_3px_#F3EDE7,inset_0_0_0_6px_#172339]"}>
+                        <img src={FacebookLogo} alt={"facebook-logo"} className={"w-5 h-5"}/>
+                    </button>
+                    <button className={"w-9 h-9 flex justify-center items-center cursor-pointer rounded-2 hover:opacity-50 focus:outline-none focus:shadow-[inset_0_0_0_3px_#F3EDE7,inset_0_0_0_6px_#172339]"}>
+                        <img src={TwitterLogo} alt={"twitter-logo"} className={"w-5 h-5"}/>
+                    </button>
+                    <button className={"w-9 h-9 flex justify-center items-center cursor-pointer rounded-2 hover:opacity-50 focus:outline-none focus:shadow-[inset_0_0_0_3px_#F3EDE7,inset_0_0_0_6px_#172339]"}>
+                        <img src={InstagramLogo} alt={"instagram-logo"} className={"w-5 h-5"}/>
+                    </button>
                 </div>
             </div>
 

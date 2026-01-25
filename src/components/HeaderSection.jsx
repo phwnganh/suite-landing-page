@@ -5,7 +5,7 @@ const HeaderSection = () => {
     return (
         <section className={"flex justify-between items-center"}>
             <img src={Logo} alt={"logo"} />
-            <CustomButton className={"text-neutral-900 border-neutral-900 hover:bg-neutral-900 hover:text-neutral-0"}>Request Beta Access</CustomButton>
+            <CustomButton className={"text-neutral-900 border-neutral-900 hover:bg-neutral-900 hover:text-neutral-0 focus:outline-none focus:shadow-[inset_0_0_0_3px_#FAF8F6,inset_0_0_0_6px_#172339]"}>Request Beta Access</CustomButton>
         </section>
     );
 };
