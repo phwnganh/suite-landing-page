@@ -4,8 +4,8 @@ import TwitterLogo from '../assets/icon-twitter.svg'
 import InstagramLogo from '../assets/icon-instagram.svg'
 const FooterSection = () => {
     return (
-        <footer className={"bg-neutral-200 pt-80 pb-20 relative -mt-60"}>
-            <div className={"max-w-277.5 mx-auto flex justify-between items-center"}>
+        <footer className={"bg-neutral-200 pt-80 pb-20 relative -mt-60 sm:px-8 md:px-0"}>
+            <div className={"max-w-277.5 mx-auto flex flex-col sm:flex-row gap-8 sm:gap-0 justify-between items-center"}>
                 <img src={Logo} alt={"logo"} />
                 <p className={"text-neutral-500 text-preset-8"}>Copyright - Suite</p>
                 <div className={"flex items-center gap-8"}>

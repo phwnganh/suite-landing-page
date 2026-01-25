@@ -3,7 +3,7 @@ import JeremyLargeImg from '../assets/image-jeremy-large.png'
 
 const TestimonialSection = () => {
     return (
-        <section className={"mt-47.5 max-w-277.5 mx-auto"}>
+        <section className={"mt-47.5 max-w-277.5 mx-auto sm:px-8 md:px-0"}>
             <div className={"bg-neutral-900 rounded-15 px-4 sm:py-16 sm:px-12 md:px-31.25 py-22 relative z-10 flex flex-col items-center md:block"}>
                 <img src={JeremyLargeImg} alt={"jeremy-large"} className={"mx-auto -mt-32 md:absolute md:bottom-0 md:mt-0"}/>
                 <img src={PatternCurvedLine2} alt={"pattern-curved-line2"} className={"my-9 md:my-0 md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 z-10"}/>
