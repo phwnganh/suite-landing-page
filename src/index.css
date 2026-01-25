@@ -17,95 +17,46 @@
     --radius-16: 16px;
     --radius-20: 20px;
     --radius-24: 24px;
-  }
 
-  .text-preset-1{
-    font-size: 72px;
-    line-height: 110%;
-    letter-spacing: -1px;
-  }
+    --text-preset-1: 72px;
+    --leading-preset-1: 110%;
+    --tracking-preset-1: -1px;
 
-  .text-preset-1-bold{
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 110%;
-    letter-spacing: -1px;
-  }
+    --text-preset-1-tablet: 56px;
+    --tracking-preset-1-tablet: -0.78px;
 
-  .text-preset-1-tablet{
-    font-size: 56px;
-    line-height: 110%;
-    letter-spacing: -0.78px;
-  }
+    --text-preset-1-mobile: 38px;
+    --tracking-preset-1-mobile: -0.53px;
 
-  .text-preset-1-table-bold{
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 110%;
-    letter-spacing: -0.78px;
-  }
+    --text-preset-2: 48px;
+    --leading-preset-2: 120%;
+    --tracking-preset-2: -0.5px;
 
-  .text-preset-1-mobile{
-    font-size: 38px;
-    line-height: 110%;
-    letter-spacing: -0.53px;
-  }
+    --text-preset-3: 20px;
+    --leading-preset-3: 160%;
+    --tracking-preset-3: 0.11px;
 
-  .text-preset-1-mobile-bold{
-    font-weight: bold;
-    font-size: 38px;
-    line-height: 110%;
-    letter-spacing: -0.53px;
-  }
+    --text-preset-4: 18px;
+    --font-weight-preset-4: bold;
+    --leading-preset-4: 160%;
+    --tracking-preset-4: -0.18px;
 
-  .text-preset-2{
-    font-size: 48px;
-    line-height: 120%;
-    letter-spacing: -0.5px;
-  }
+    --text-preset-5: 18px;
+    --leading-preset-5: 160%;
+    --tracking-preset-5: 0.1px;
 
-  .text-preset-2-bold{
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 120%;
-    letter-spacing: -0.5px;
-  }
+    --text-preset-6: 16px;
+    --leading-preset-6: 150%;
+    --tracking-preset-6: -0.16px;
+    --font-weight-preset-6: bold;
 
-  .text-preset-3{
-    font-size: 20px;
-    line-height: 160%;
-    letter-spacing: 0.11px;
-  }
+    --text-preset-7: 16px;
+    --leading-preset-7: 150%;
+    --tracking-preset-7: 2.5px;
 
-  .text-preset-4{
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 160%;
-    letter-spacing: -0.18px;
-  }
-
-  .text-preset-5{
-    font-size: 18px;
-    line-height: 160%;
-    letter-spacing: 0.1px;
-  }
-
-  .text-preset-6{
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: -0.16px;
-  }
-
-  .text-preset-7{
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 2.5px;
-  }
-
-  .text-preset-8{
-    font-size: 15px;
-    line-height: 160%;
+    --text-preset-8: 15px;
+    --leading-preset-8: 160%;
   }
 }
+
 

@@ -11,12 +11,12 @@ const TestimonialSection = () => {
                 <div className={"flex items-center justify-end relative z-20 md:ml-115 text-center md:text-left"}>
                     <div className={"flex flex-col gap-6 max-w-87.5 w-full"}>
                         <div className={"flex flex-col gap-8"}>
-                            <p className={"text-neutral-0 text-preset-2"}>It just <span className={"text-preset-2-bold"}>works.</span></p>
-                            <p className={"text-neutral-200 text-preset-3"}>“I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate tools to do the same job. This thing is a miracle worker.”</p>
+                            <p className={"text-neutral-0 text-preset-2 leading-preset-2 tracking-preset-2"}>It just <span className={"font-bold"}>works.</span></p>
+                            <p className={"text-neutral-200 text-preset-3 leading-preset-3 tracking-preset-3"}>“I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate tools to do the same job. This thing is a miracle worker.”</p>
                         </div>
                         <div className={"flex flex-col"}>
-                            <p className={"uppercase text-preset-4 text-neutral-0"}>jeremy robinson</p>
-                            <p className={"uppercase text-neutral-200 text-preset-7"}>cmo, fylo</p>
+                            <p className={"uppercase text-preset-4 leading-preset-4 tracking-preset-4 text-neutral-0"}>jeremy robinson</p>
+                            <p className={"uppercase text-neutral-200 text-preset-7 leading-preset-7 tracking-preset-7"}>cmo, fylo</p>
                         </div>
                     </div>
                 </div>
