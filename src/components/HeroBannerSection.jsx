@@ -20,12 +20,11 @@ const HeroBannerSection = () => {
         }
     ]
     return (
-        <section className={"flex flex-col md:flex-row gap-20 justify-between items-center"}>
-            <div className={"relative flex items-center w-full"}>
+        <section className={"flex flex-col md:flex-row gap-20 w-full items-center relative"}>
 
                 <img src={PatternCurveLine1} alt={"pattern-curve-line-1"} className={"absolute left-1/2 -translate-x-1/2 top-10 z-30"} />
 
-                <div className={"flex flex-col gap-16 max-w-158.75 absolute left-0 top-1/2 -translate-y-1/2 z-20"}>
+                <div className={"flex flex-col gap-16 max-w-158.75 sm:absolute sm:left-0 sm:top-1/2 sm:-translate-y-1/2 z-20"}>
                     <div className={"flex flex-col gap-10"}>
                         <h1 className={"text-preset-1 text-neutral-900"}>A <span className={"text-preset-1-bold"}>super solution</span> for your <span className={"text-preset-1-bold"}>business.</span></h1>
                         <p className={"text-neutral-500 text-preset-5"}>Our marketing and sales automations help you scale your outreach to get more leads for your company. </p>
@@ -33,10 +32,9 @@ const HeroBannerSection = () => {
                     <CustomButton className={"text-neutral-0 border-neutral-900 bg-neutral-900 w-58"}>Request Beta Access</CustomButton>
                 </div>
 
-                <img src={HeroPotraitImg} alt={"hero-portrait-img"} className={"relative z-10 ml-auto"}/>
+                <img src={HeroPotraitImg} alt={"hero-portrait-img"} className={"relative z-10 ml-auto hidden sm:block"}/>
 
 
-            </div>
 
                 <div className={"flex flex-col sm:flex-row md:flex-col gap-16"}>
                         {HERO_BANNER_STATISTICS.map(item => (
